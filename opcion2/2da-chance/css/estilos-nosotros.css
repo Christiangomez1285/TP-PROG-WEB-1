@@ -1,0 +1,65 @@
+.nosotros{
+    width: 100%;
+    height: auto;
+
+    
+}
+.subtitulo{
+   font-size: 40px;
+   margin:4%;
+    color: rgb(30, 30, 32);
+
+}
+.quienes-somos p{
+    font-size: 18px;
+   line-height: 30px;
+   
+    
+}
+.quienes-somos{
+    
+    float:  left;
+    clear:  none; 
+    width: 45%;
+   padding-left: 50px;
+   display: inline;
+}
+
+
+.img-fondo{
+    background-image: url(../img/img02.jpg);
+    background-repeat:no-repeat;
+    background-size: 95% 100%;
+    background-position: center;
+   z-index: 2;
+}
+
+.servicios{
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    font-size: 20px;
+    
+}
+.servicios li{
+  list-style-position: unset;
+  text-align: justify;
+  margin-left: 30px;
+}
+.nuestrosservicios{
+    float:  left;
+    clear:  none; 
+    width: 45%;
+    padding-left: 50px;
+    display: inline;
+}
+.profesores{
+    display: inline-block;
+    width: 100%;  
+    display: inline-flex;
+    text-align: center;
+}
+.profechild{
+    width: 33.3%;
+    position: relative;
+}

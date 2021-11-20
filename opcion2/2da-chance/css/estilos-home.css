@@ -1,0 +1,115 @@
+.carrusel{
+    width: 100%;
+    height: 500px;
+    background-image: url(../img/img03.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity:  0.8;
+}
+.baner-cursos{
+
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+}
+.baner-cursos article{
+  
+    width: 20%;  
+    display: inline-flex;
+    text-align: center;
+    
+}
+.baner-cursos h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 1em;
+    
+}
+.cuadritos{
+    width: 300px;
+    margin: 5px;
+    height: 230px;
+    border-radius: 15%;
+    background-color: rgb(250, 223, 223);
+    position: relative;
+}
+.cuadritos h3{
+    color: #fff;
+    background-color: black;
+    position: absolute;
+    right: 0;
+    top: 25px;
+    padding: 5px;
+
+}
+.cuadritos p{
+    position: absolute;
+    bottom: 5%;
+    background-color: cornsilk;
+    margin: 3px;
+    padding: 2px;
+
+}
+.cuadritos a{
+   text-decoration: none;
+   color: #fff;
+}
+
+#ingles{
+    background-image: url(../img/eeuu-1.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#portugal{
+    background-image: url(../img/portugal.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#aleman{
+    background-image: url(../img/aleman.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+#coreano{
+    background-image: url(../img/corea.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+.banerimg{
+    
+    display: inline-block;
+    width: 100%;  
+    display: inline-flex;
+    text-align: center;
+}
+.banerchild{
+    width: 25%;
+    position: relative;
+}
+.banerchild span{
+    position: absolute;
+    right: 60px;
+    top: 5px;
+    background-color:white;
+    
+}
+
+.mini-inscripcion form{
+   margin-top: 30px;
+   text-align: center;
+  font-size: larger;
+ 
+ }
+
+
+.mini-inscripcion form select{
+    background-color: rgb(225, 143, 137);
+   border-collapse: separate;
+    color: rgb(255, 255, 255);
+    border-radius: 10% ;
+    box-sizing: content-box;
+}
